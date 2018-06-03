@@ -8,15 +8,16 @@ function searchInput() {
 	
 	// get data from textbox
 	var input = document.getElementById("SearchInput");
-	var strIpt = input.value;
+	var strIpt = input.value.trim();
 	
 	// concat string
 	var searchStr = strIpt != "" ? strOpt + '+' + strIpt : strOpt;
-	var wholeStr = header + searchStr;
 	
 	// start search
-	if (wholeStr != "")
+	if (searchStr.length != 0)
 		window.open(header + searchStr);
+	else
+		alert('Please provide searching keywords...')
 }
 
 function checkKey() {
