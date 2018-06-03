@@ -1,0 +1,27 @@
+#Logo {
+	height: 35%;
+	width: 35%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SearchBar {
+	text-align: center;
+}
+
+#Options {
+	-webkit-appearance: menulist-button;
+	font-size: 20px;
+	height: 30px;
+}
+
+#SubmitButton {
+	-webkit-appearance: button;
+	font-size: 20px;
+}
+
+#SearchInput {
+	width: 400px;
+	font-size: 20px;
+}

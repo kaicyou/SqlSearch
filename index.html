@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>SQL Search</title>
+</head>
+<body>
+	<div>
+		<img id="Logo" src="logo.png">
+	</div>
+	
+	<div id="SearchBar">
+		<select id="Options">
+			<option value="SQL+Server">SQL Server</option>
+			<option value="T+SQL">T-SQL</option>
+			<option value="Microsoft">Microsoft</option>
+			<option value="">----</option>
+		</select>
+
+		<input id="SearchInput" type="text" name="SearchQuery" onkeypress="checkKey();">
+
+		<input id="SubmitButton" type="button" value="Search" onclick="searchInput();">
+	</div>
+</body>
+</html>
